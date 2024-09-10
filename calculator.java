@@ -7,8 +7,12 @@ public class calculator{
         return a - b;
         }
 
+    public static int multiply(int a, int b){
+            return a * b;
+            }
     public static void main (String[] args){
         System.out.println("Sum: " + add(20,10));
         System.out.println("Difference: " + subtract(20,5));
+        System.out.println("Product: " + multiply(20,5));
     }
     }
